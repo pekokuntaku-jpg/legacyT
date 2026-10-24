@@ -1,0 +1,38 @@
+.lega {
+    gap:30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.lega a {
+    display: inline-block; 
+    border:3px solid black ;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.788);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lega a:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+body {
+    font-family: Arial;
+    margin-bottom: 50px;
+}
+
+.l {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.qna {
+    margin:auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
